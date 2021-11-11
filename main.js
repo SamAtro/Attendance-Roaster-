@@ -1,0 +1,52 @@
+var names_of_students=[];
+function submit(){
+    var name_1=document.getElementById("name1").value;
+    var name_2=document.getElementById("name2").value;
+    var name_3=document.getElementById("name3").value;
+    var name_4=document.getElementById("name4").value;
+    var name_5=document.getElementById("name5").value;
+    var name_6=document.getElementById("name6").value;
+    var name_7=document.getElementById("name7").value;
+    var name_8=document.getElementById("name8").value;
+    var name_9=document.getElementById("name9").value;
+    var name_10=document.getElementById("name10").value;
+    var name_11=document.getElementById("name11").value;
+    var name_12=document.getElementById("name12").value;
+    var name_13=document.getElementById("name13").value;
+    var name_14=document.getElementById("name14").value;
+    var name_15=document.getElementById("name15").value;
+    var name_16=document.getElementById("name16").value;
+    var name_17=document.getElementById("name17").value;
+    var name_18=document.getElementById("name18").value;
+    var name_19=document.getElementById("name19").value;
+    var name_20=document.getElementById("name20").value;
+    names_of_students.push(name_1);
+    names_of_students.push(name_2);
+    names_of_students.push(name_3);
+    names_of_students.push(name_4);
+    names_of_students.push(name_5);
+    names_of_students.push(name_6);
+    names_of_students.push(name_7);
+    names_of_students.push(name_8);
+    names_of_students.push(name_9);
+    names_of_students.push(name_10);
+    names_of_students.push(name_11);
+    names_of_students.push(name_12);
+    names_of_students.push(name_13);
+    names_of_students.push(name_14);
+    names_of_students.push(name_15);
+    names_of_students.push(name_16);
+    names_of_students.push(name_17);
+    names_of_students.push(name_18);
+    names_of_students.push(name_19);
+    names_of_students.push(name_20);
+    console.log(names_of_students);
+    document.getElementById("display_name").innerHTML=names_of_students;
+    document.getElementById("submit_button").style.display="none";
+    document.getElementById("sort_button").style.display="inline-block";
+}
+function sorting(){
+    names_of_students.sort();
+    console.log(names_of_students);
+    document.getElementById("display_name").innerHTML=names_of_students;
+}
